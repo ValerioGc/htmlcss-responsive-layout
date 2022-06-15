@@ -1,0 +1,162 @@
+/* MQ > 768PX  */
+@media screen and (min-width:768px) {
+    /*************************
+    MQ Prima Sezione
+    *************************/
+    #first-section .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 1.75rem;
+    }
+    #first-section .container .card:first-child {
+        width: calc(66.666% - 1.5rem);
+    }
+    #first-section .container .card {
+        width: calc(33.333% - 1.5rem);
+        margin: 0.75rem 0.75rem;
+    }
+    /*************************
+    *****MQ Terza Sezione*****
+    *************************/
+    #third-section .container .card {
+        display: flex;
+    }
+    #third-section .container .card div:first-child {
+        height: 100%;
+        width: 40%;
+    }
+    #third-section .container .card div {
+        height: 100%;
+        width: 60%;
+    }
+    /*************************
+    *****MQ Quarta Sezione****
+    *************************/
+    #fourth-section .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #fourth-section .container .card {
+        width: 48%;
+    }
+    /*************************
+    *****Quinta Sezione*******
+    *************************/
+    #fifth-section .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #fifth-section .container .card:first-child {
+        width: 65%;
+    }
+    #fifth-section .container .card {
+        width: 30%;
+    }
+}
+/* MQ > 992PX  */
+@media screen and (min-width: 992px) {
+    .header-container {
+        width: 80%;
+        margin: auto;
+    }
+    .header-container #nav-anchor {
+        display: block;
+    }
+    .header-container #menu {
+        display: none;
+    }
+    /*************************
+    *****MQ Prima Sezione*****
+    *************************/
+    #first-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    /*************************
+    ****MQ Seconda Sezione****
+    *************************/
+    #second-section .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    #second-section .container .card {
+        width: 45%;
+    }
+    /*************************
+    *****MQ Terza Sezione*****
+    *************************/
+    #third-section .container,
+    .section-title {
+        width: 80%;
+        margin: auto;
+    }
+    /*************************
+    *****MQ Quarta Sezione****
+    *************************/
+    #fourth-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    #fourth-section .container .card {
+        width: 32%;
+    }
+    /*************************
+    *****Quinta Sezione*******
+    *************************/
+    #fifth-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    /*************************
+    *****Ultima Sezione*******
+    *************************/
+    #last-section .container {
+        width: 60%;
+        margin: auto;
+    }
+    #fifth-section .container .card:first-child {
+        width: 65%;
+    }
+    #fifth-section .container .card {
+        width: 30%;
+    }
+    /*************************
+    *******MQ Footer**********
+    *************************/
+    footer .container {
+        width: 60%;
+        margin: auto;
+    }
+}
+/* MQ > 1200PX  */
+@media screen and (min-width: 1200px) {
+    .header-container {
+        width: 60%;
+    }
+    #first-section .container {
+        width: 60%;
+    }
+    #second-section .container {
+        width: 60%;
+    }
+    #third-section .container,
+    .section-title {
+        width: 60%;
+    }
+    #fourth-section .container {
+        width: 60%;
+    }
+    #fifth-section .container {
+        width: 60%;
+    }
+    #last-section .container,
+    footer .containter {
+        width: 40%;
+    }
+    footer .container {
+        width: 40%;
+    }
+}

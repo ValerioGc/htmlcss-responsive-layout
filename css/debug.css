@@ -1,0 +1,17 @@
+/* Regole Debug */
+.debug * {
+    border: 1px dotted black;
+}
+.debug .card {
+    height: 40vh;
+}
+/* Regole Debug colori */
+.debug .header-content {
+    background-color: grey;
+}
+.debug #second-section .card {
+    background-color: #fff;
+}
+.debug footer .container p {
+    background-color: red;
+}
