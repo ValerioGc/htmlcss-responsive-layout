@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4 ;
+    --secondary-color-light: #cbc9f1;
+}
+
+/* Header Pagina */
+header nav {
+    background-color: var(--primary-color);
+}
+
+#first-section .card {
+    background-color: var(--primary-color-light);
+}
+/* Corpo pagina */
+
+
+
+/* Regole Debug colori */
+.debug .header-content {
+    background-color: grey;
+}
+
+.debug 
+
+.debug
+
+.debug 
