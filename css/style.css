@@ -61,6 +61,9 @@
 /* Quarta Sezione */
 /* Ultima Sezione */
 /* Footer */
+footer p:last-child {
+    margin-top: 2rem;
+}
 
 /* Media query */
 @media screen and (min-width:768px) {
@@ -96,6 +99,14 @@
     /************************* 
     *****MQ Quarta Sezione****
     *************************/
+    #fourth-section .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #fourth-section .container .card {
+        width: 48%;
+    }
 
 }
 @media screen and (min-width: 992px) {
@@ -129,6 +140,19 @@
         width: 80%;
         margin: auto;
     }
+    /************************* 
+    *****MQ Quarta Sezione****
+    *************************/
+    #fourth-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    #fourth-section .container .card {
+        width: 32%;
+    }
+    /************************* 
+    *******MQ Footer**********
+    *************************/
 
 }
 
