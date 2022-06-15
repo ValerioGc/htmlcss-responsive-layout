@@ -59,12 +59,12 @@
     text-align: center;
 }
 /* Quarta Sezione */
+/* Quinta Sezione */
 /* Ultima Sezione */
 /* Footer */
 footer p:last-child {
     margin-top: 2rem;
 }
-
 /* Media query */
 @media screen and (min-width:768px) {
     /************************* 
@@ -190,7 +190,6 @@ footer p:last-child {
         margin: auto;
     }
 }
-
 /* Regole Debug */
 .debug * {
     border: 1px dotted black;

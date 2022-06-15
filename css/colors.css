@@ -23,28 +23,28 @@ header nav {
 #third-section .card {
     background-color: var(--secondary-color);
 }
-/* Quarta Sezione */
+/* Quarta-Ultima Sezione */
 #fourth-section {
     background-color: var(--secondary-color);
 }
 #last-section {
     background-color: var(--secondary-color);
 }
+#fourth-section .card,
+#last-section .card {
+    background-color: #fff;
+}
 /* Footer Pagina */
 footer {
     background-color: #0b0b0b;
-}
-footer .container p {
-    background-color: red;
 }
 /* Regole Debug colori */
 .debug .header-content {
     background-color: grey;
 }
-
 .debug #second-section .card {
     background-color: #fff;
 }
-#fourth-section .card, #last-section .card {
-    background-color: #fff;
+.debug footer .container p {
+    background-color: red;
 }
