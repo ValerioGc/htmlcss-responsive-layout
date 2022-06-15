@@ -27,13 +27,15 @@ header nav {
 #fourth-section {
     background-color: var(--secondary-color);
 }
+#last-section {
+    background-color: var(--secondary-color);
+}
 /* Footer Pagina */
 footer {
     background-color: #0b0b0b;
 }
 footer .container p {
     background-color: red;
-
 }
 /* Regole Debug colori */
 .debug .header-content {
@@ -43,6 +45,6 @@ footer .container p {
 .debug #second-section .card {
     background-color: #fff;
 }
-#fourth-section .card {
+#fourth-section .card, #last-section .card {
     background-color: #fff;
 }

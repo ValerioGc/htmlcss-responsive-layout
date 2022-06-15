@@ -107,7 +107,19 @@ footer p:last-child {
     #fourth-section .container .card {
         width: 48%;
     }
-
+    /************************* 
+    *****Quinta Sezione*******
+    *************************/
+    #fifth-section .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #fifth-section .container .card:first-child {
+        width: 65%;
+    }
+    #fifth-section .container .card {
+        width: 30%;
+    }
 }
 @media screen and (min-width: 992px) {
     .header-container {
@@ -151,9 +163,32 @@ footer p:last-child {
         width: 32%;
     }
     /************************* 
+    *****Quinta Sezione*******
+    *************************/
+    #fifth-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    /************************* 
+    *****Ultima Sezione*******
+    *************************/
+    #last-section .container {
+        width: 60%;
+        margin: auto;
+    }
+    #fifth-section .container .card:first-child {
+        width: 65%;
+    }
+    #fifth-section .container .card {
+        width: 30%;
+    }
+    /************************* 
     *******MQ Footer**********
     *************************/
-
+    footer .container {
+        width: 60%;
+        margin: auto;
+    }
 }
 
 /* Regole Debug */
