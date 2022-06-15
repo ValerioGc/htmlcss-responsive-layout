@@ -38,16 +38,26 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.h-40 {
+    height: 40%;
+}
+.h-60 {
+    height: 60%;
+}
+.h-50 {
+    height: 100%;
+}
+/* Contenitori  */
+.card {
+    border-radius: 30px;
+}
 /* Header Pagina */
 /* Prima Sezione */
 /* Seconda Sezione */
-#second-section {
-    background-color: var(--secondary-color);
-}
-#second-section .container {
-    background-color: var(--secondary-color);
-}
 /* Terza Sezione */
+#third-section .section-title {
+    text-align: center;
+}
 /* Quarta Sezione */
 /* Ultima Sezione */
 /* Footer */
@@ -72,9 +82,22 @@
     /************************* 
     *****MQ Terza Sezione*****
     *************************/
+    #third-section .container .card {
+        display: flex;
+    }
+    #third-section .container .card div:first-child {
+        height: 100%;
+        width: 40%;
+    }
+    #third-section .container .card div {
+        height: 100%;
+        width: 60%;
+    }
+    /************************* 
+    *****MQ Quarta Sezione****
+    *************************/
 
 }
-
 @media screen and (min-width: 992px) {
     .header-container {
         width: 80%;
@@ -102,8 +125,10 @@
     /************************* 
     *****MQ Terza Sezione*****
     *************************/
-}
-@media screen and (min-width: 1200px) {
+    #third-section .container, .section-title {
+        width: 80%;
+        margin: auto;
+    }
 
 }
 
