@@ -8,6 +8,7 @@
         <!-- Stylesheet -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body class="debug">
         <!--
@@ -17,7 +18,28 @@
             <nav>
                 <div class="header-container d-flex just-sp_between pad_x-2_5 pad_y-2">
                     <div class="header-content">Logo</div>
-                    <div class="header-content">Content</div>
+                    <div class="d-none" id="nav-anchor">
+                        <ul class="list_st_ty-n d-flex">
+                            <li class="pad_x-1_5">
+                                <a class="text_dec-n col-w" href="#">Planning</a>
+                            </li>
+                            <li class="pad_x-1_5">
+                                <a class="text_dec-n col-w" href="#">Testimonials</a>
+                            </li>
+                            <li class="pad_x-1_5">
+                                <a class="text_dec-n col-w" href="#">Features</a>
+                            </li>
+                            <li class="pad_x-1_5">
+                                <a class="text_dec-n col-w" href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a class="btn text_dec-n" href="#">Get Started</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-content" id="menu">
+                        <i class="fa-solid fa-bars col-w fa-2x"></i>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -50,7 +72,7 @@
                 Terza sezione
             -->
             <section id="third-section">
-                <div class="section-title">
+                <div class="section-title t_align-c">
                     <h4>Testimonials</h4>
                     <h3>We are committed expert parthners</h3>
                     <p>content</p>
@@ -74,7 +96,7 @@
                 Quarta sezione
             -->
             <section id="fourth-section">
-                <div class="section-title">
+                <div class="section-title t_align-c">
                     <h3 class="t_align-c">Benefits of working with us</h3>
                 </div>
                 <div class="container pad_x-2_5">
