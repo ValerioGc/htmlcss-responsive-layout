@@ -4,26 +4,24 @@
     --secondary-color: #9792e4 ;
     --secondary-color-light: #cbc9f1;
 }
-
+.col-w {
+    color: #fff;
+}
 /* Header Pagina */
 header nav {
     background-color: var(--primary-color);
 }
-
+/* Prima Sezione */
 #first-section .card {
     background-color: var(--primary-color-light);
 }
-/* Corpo pagina */
-
-
 
 /* Regole Debug colori */
 .debug .header-content {
     background-color: grey;
 }
 
-.debug 
+.debug {
 
-.debug
+}
 
-.debug 
