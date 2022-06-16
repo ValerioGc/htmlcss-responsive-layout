@@ -27,7 +27,7 @@
 header nav {
     background-color: var(--primary-color);
 }
-/* Prima Sezione */
+/* Corpo Pagina */
 #first-section .card {
     background-color: var(--primary-color-light);
 }
@@ -49,14 +49,12 @@ header nav {
 #first-section .btn-xl {
     background-color: var(--primary-color);
 }
-/* Seconda Sezione */
 #second-section {
     background-color: var(--secondary-color);
 }
 #second-section .card {
     background-color: var(--white-background);
 }
-/* Terza Sezione */
 #third-section .card {
     background-color: var(--secondary-color);
 }
@@ -66,18 +64,29 @@ header nav {
 #third-section .section-title h4 {
     color: var(--light-gray);
 }
-/* Quarta - Ultima Sezione */
-#fourth-section {
-    background-color: var(--secondary-color);
-}
-#last-section {
+#fourth-section, #last-section, #fourth-section .btn{
     background-color: var(--secondary-color);
 }
 #fourth-section .card,
 #last-section .card {
     background-color: #fff;
 }
+#last-section h1 {
+    color: #fdc15f;
+}
+#last-section h3 {
+    color: var(--secondary-color-light);
+}
+#fifth-section .card h1,
+#fifth-section .card h2,
+#fifth-section a,
+#fourth-section .card h1,
+#fourth-section .card h2,
+#last-section a.btn,
+footer a {
+    color: var(--secondary-color);
+}
 /* Footer Pagina */
 footer {
-    background-color: #0b0b0b;
+    background-color: #333;
 }
