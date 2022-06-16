@@ -4,6 +4,7 @@
     --secondary-color: #9792e4 ;
     --secondary-color-light: #cbc9f1;
     --white-background:#fff;
+    --light-gray: #5A6E7F;
 }
 /* Colori comuni */
 .col-w {
@@ -33,13 +34,34 @@ header nav {
 #first-section .card  i {
     color: var(--primary-color);
 }
+#first-section .card  i {
+    color: var(--primary-color);
+}
+#first-section .card h2 {
+    color: var(--primary-color);
+}
+#first-section .card p {
+    color: var(--light-gray);
+}
+#first-section .card a i {
+    color: #fff;
+}
+#first-section .btn-xl {
+    background-color: var(--primary-color);
+}
 /* Seconda Sezione */
 #second-section {
     background-color: var(--secondary-color);
 }
+#second-section .card {
+    background-color: var(--white-background);
+}
 /* Terza Sezione */
 #third-section .card {
     background-color: var(--secondary-color);
+}
+#third-section .section-title h2 {
+    color: var(--secondary-color);
 }
 /* Quarta - Ultima Sezione */
 #fourth-section {

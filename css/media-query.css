@@ -32,6 +32,10 @@
         height: 100%;
         width: 60%;
     }
+    #third-section .section-title {
+        width: 60%;
+        margin: auto;
+    }
     /*************************
     *****MQ Quarta Sezione****
     *************************/
@@ -91,8 +95,11 @@
     /*************************
     *****MQ Terza Sezione*****
     *************************/
-    #third-section .container,
-    .section-title {
+    #third-section .container {
+        width: 80%;
+        margin: auto;
+    }
+    #third-section .section-title {
         width: 80%;
         margin: auto;
     }
@@ -145,8 +152,7 @@
     #second-section .container {
         width: 60%;
     }
-    #third-section .container,
-    .section-title {
+    #third-section .container, #third .section-title {
         width: 60%;
     }
     #fourth-section .container {

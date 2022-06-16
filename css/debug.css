@@ -12,3 +12,6 @@
 .debug footer .container p {
     background-color: red;
 }
+.debug .card {
+    height: 40vh;
+}
