@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
+    scroll-behavior: smooth;
 }
 /* Classi comuni */
 .d-none {
@@ -30,6 +31,9 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
+.t_align-l {
+    text-align: left;
+}
 .t_align-c {
     text-align: center;
 }
@@ -51,8 +55,8 @@
 .h-60 {
     height: 60%;
 }
-.h-50 {
-    height: 100%;
+.w-50 {
+    width: 50%;
 }
 .list_st_ty-n {
     list-style-type: none;
@@ -60,20 +64,18 @@
 .text_dec-n {
     text-decoration: none;
 }
-/* Contenitori  */
-.card {
+.b_rad-30 {
     border-radius: 30px;
 }
 /* Bottoni */
 .btn {
-    background-color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 30px
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
 }
-.btn-ty2 {
-    background-color: var(--secondary-color);
-    padding: 0.5rem 1rem;
-    border-radius: 30px
+/* Corpo Pagina */
+body {
+    font-family: sans-serif;
 }
 /* Footer */
 footer p:last-child {

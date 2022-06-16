@@ -1,4 +1,4 @@
-/* MQ > 768PX  */
+/************ MQ > 768PX ***************/
 @media screen and (min-width:768px) {
     /*************************
     MQ Prima Sezione
@@ -14,6 +14,9 @@
     #first-section .container .card {
         width: calc(33.333% - 1.5rem);
         margin: 0.75rem 0.75rem;
+    }
+    #first-section .card-sub-c {
+        display: flex;
     }
     /*************************
     *****MQ Terza Sezione*****
@@ -54,7 +57,7 @@
         width: 30%;
     }
 }
-/* MQ > 992PX  */
+/************ MQ > 992PX ***************/
 @media screen and (min-width: 992px) {
     .header-container {
         width: 80%;
@@ -110,18 +113,18 @@
         width: 80%;
         margin: auto;
     }
+    #fifth-section .container .card:first-child {
+        width: 65%;
+    }
+    #fifth-section .container .card {
+        width: 30%;
+    }
     /*************************
     *****Ultima Sezione*******
     *************************/
     #last-section .container {
         width: 60%;
         margin: auto;
-    }
-    #fifth-section .container .card:first-child {
-        width: 65%;
-    }
-    #fifth-section .container .card {
-        width: 30%;
     }
     /*************************
     *******MQ Footer**********
@@ -131,7 +134,7 @@
         margin: auto;
     }
 }
-/* MQ > 1200PX  */
+/************ MQ > 1200PX ***************/
 @media screen and (min-width: 1200px) {
     .header-container {
         width: 60%;

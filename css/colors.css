@@ -4,8 +4,19 @@
     --secondary-color: #9792e4 ;
     --secondary-color-light: #cbc9f1;
 }
+/* Colori comuni */
 .col-w {
     color: #fff;
+}
+/* Colori buttons */
+.btn {
+    background-color: #fff;
+}
+.btn-ty1 {
+    background-color: var(--primary-color);
+}
+.btn-ty2 {
+    background-color: var(--secondary-color);
 }
 /* Header Pagina */
 header nav {
@@ -23,7 +34,7 @@ header nav {
 #third-section .card {
     background-color: var(--secondary-color);
 }
-/* Quarta-Ultima Sezione */
+/* Quarta - Ultima Sezione */
 #fourth-section {
     background-color: var(--secondary-color);
 }
@@ -37,14 +48,4 @@ header nav {
 /* Footer Pagina */
 footer {
     background-color: #0b0b0b;
-}
-/* Regole Debug colori */
-.debug .header-content {
-    background-color: grey;
-}
-.debug #second-section .card {
-    background-color: #fff;
-}
-.debug footer .container p {
-    background-color: red;
 }
