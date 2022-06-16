@@ -142,31 +142,39 @@
     }
 /************ MQ > 1200PX ***************/
 @media screen and (min-width: 1200px) {
-    .header-container {
-        width: 70%;
-    }
-    #first-section .container {
-        width: 70%;
-        margin: auto;
-        align-items: center;
-    }
-    #second-section .container {
-        width: 70%;
-    }
-    #third-section .container, #third .section-title {
-        width: 70%;
-    }
-    #fourth-section .container {
-        width: 70%;
-    }
+    .header-container,
+    #first-section .container,
+    #second-section .container,
+    #third-section .container, 
+    #third .section-title,
+    #fourth-section .container,
     #fifth-section .container {
         width: 70%;
     }
+    #first-section .container {
+        margin: auto;
+        align-items: center;
+    }
+    #first-section .card i {
+        margin-top: 0;
+    }
+    #second-section .container  {
+        padding: 2rem;
+    }
+    #second-section .container > div {
+        width: 45%;
+    }
+    #second-section .container:last-child {
+        height: 45%;
+    }
+    #third-section .container .card div img {
+    width: 60%;
+    }
+    #fourth-section .section-title h2 {
+        text-align: center;
+    }
     #last-section .container,
     footer .containter {
-        width: 50%;
-    }
-    footer .container {
         width: 50%;
     }
 }
