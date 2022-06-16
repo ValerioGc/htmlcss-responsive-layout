@@ -55,6 +55,9 @@
 .h-60 {
     height: 60%;
 }
+.w-30 {
+    width: 30%;
+}
 .w-50 {
     width: 50%;
 }
@@ -67,11 +70,18 @@
 .b_rad-30 {
     border-radius: 30px;
 }
+.b_rad-50 {
+    border-radius: 50%;
+}
 /* Bottoni */
 .btn {
     padding: 0.5rem 1.5rem;
     border-radius: 30px;
     font-weight: bold;
+}
+.btn-round {
+    padding: 0.5rem;
+    border-radius: 50%;
 }
 /* Corpo Pagina */
 body {
@@ -82,3 +92,6 @@ footer p:last-child {
     margin-top: 2rem;
 }
 
+#second-section .card {
+    background-color: var(--white-background);
+}

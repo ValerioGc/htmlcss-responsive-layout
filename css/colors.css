@@ -3,6 +3,7 @@
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4 ;
     --secondary-color-light: #cbc9f1;
+    --white-background:#fff;
 }
 /* Colori comuni */
 .col-w {
@@ -11,6 +12,9 @@
 /* Colori buttons */
 .btn {
     background-color: #fff;
+}
+.btn-round {
+    background-color: var(--secondary-color);
 }
 .btn-ty1 {
     background-color: var(--primary-color);
@@ -25,6 +29,9 @@ header nav {
 /* Prima Sezione */
 #first-section .card {
     background-color: var(--primary-color-light);
+}
+#first-section .card  i {
+    color: var(--primary-color);
 }
 /* Seconda Sezione */
 #second-section {
