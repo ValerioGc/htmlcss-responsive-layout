@@ -36,12 +36,7 @@
     }
     #first-section p:not(#first-card p) {
         padding: 2rem 1rem;
-
     }
-    /*************************
-    *****MQ Seconda Sezione*****
-    *************************/
-
     /*************************
     *****MQ Terza Sezione*****
     *************************/
@@ -51,14 +46,21 @@
     #third-section .container .card div:first-child {
         height: 100%;
         width: 40%;
+        padding: 1rem;
     }
     #third-section .container .card div {
         height: 100%;
         width: 60%;
     }
-    #third-section .section-title {
-        width: 60%;
-        margin: auto;
+    #third-section .container .card p,
+    #third-section .container .card h4 {
+        text-align: left;
+    }
+    #third-section .container .card p {
+        padding-top: 2rem ;
+    }
+    #third-section .container .card div img {
+        width: 90%;
     }
     /*************************
     *****MQ Quarta Sezione****
@@ -71,6 +73,9 @@
     #fourth-section .container .card {
         width: 48%;
     }
+    #fourth-section .btn {
+        padding: 0.5rem 4rem;
+    }
     /*************************
     *****Quinta Sezione*******
     *************************/
@@ -84,13 +89,24 @@
     #fifth-section .container .card {
         width: 30%;
     }
+    #fifth-section .container .card img {
+        width: 80%;
+    }
 }
 /************ MQ > 992PX ***************/
 @media screen and (min-width: 992px) {
-    .header-container {
+    .header-container,
+    #second-section .container,
+    #third-section .container,
+    #third-section .section-title,
+    #fifth-section .container,
+    #fourth-section .container {
         width: 80%;
         margin: auto;
+    }
+    .header-container {
         align-items: center;
+        width: 100%;
     }
     .header-container #nav-anchor {
         display: block;
@@ -98,94 +114,32 @@
     .header-container #menu {
         display: none;
     }
-    /*************************
-    *****MQ Prima Sezione*****
-    *************************/
-    #first-section #phone {
+    #first-section #phone,
+    #second-section .container {
         display: flex;
         align-items: flex-end;
     }
     #first-section #first-card:first-child {
         display: flex;
     }
-    #first-section .container {
-        margin: auto;
-    }
-    /*************************
-    ****MQ Seconda Sezione****
-    *************************/
     #second-section .container {
-        width: 80%;
-        margin: auto;
-        display: flex;
         justify-content: space-around;
     }
     #second-section .container .card {
         width: 45%;
     }
-        #second-section .container {
-        display: flex;
-        align-items:flex-end
-    }
     #second-section .card-sub-c img {
         margin: 4rem auto 0;
         width: 60%;
     }
+    #second-section .card p,
     #second-section .card h1 {
         padding: 1rem;
     }
-    #second-section .card p {
-        padding: 1rem;
-    }
-    /*************************
-    *****MQ Terza Sezione*****
-    *************************/
-    #third-section .container {
-        width: 80%;
-        margin: auto;
-    }
-    #third-section .section-title {
-        width: 80%;
-        margin: auto;
-    }
-    /*************************
-    *****MQ Quarta Sezione****
-    *************************/
-    #fourth-section .container {
-        width: 80%;
-        margin: auto;
-    }
-    #fourth-section .container .card {
-        width: 32%;
-    }
-    /*************************
-    *****Quinta Sezione*******
-    *************************/
-    #fifth-section .container {
-        width: 80%;
-        margin: auto;
-    }
-    #fifth-section .container .card:first-child {
-        width: 65%;
-    }
-    #fifth-section .container .card {
-        width: 30%;
-    }
-    /*************************
-    *****Ultima Sezione*******
-    *************************/
     #last-section .container {
         width: 60%;
         margin: auto;
     }
-    /*************************
-    *******MQ Footer**********
-    *************************/
-    footer .container {
-        width: 60%;
-        margin: auto;
-    }
-}
 /************ MQ > 1200PX ***************/
 @media screen and (min-width: 1200px) {
     .header-container {

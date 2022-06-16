@@ -64,7 +64,9 @@ header nav {
 #third-section .section-title h4 {
     color: var(--light-gray);
 }
-#fourth-section, #last-section, #fourth-section .btn{
+#fourth-section, #last-section,
+#fourth-section .btn,
+#fifth-section .card a {
     background-color: var(--secondary-color);
 }
 #fourth-section .card,
@@ -79,7 +81,6 @@ header nav {
 }
 #fifth-section .card h1,
 #fifth-section .card h2,
-#fifth-section a,
 #fourth-section .card h1,
 #fourth-section .card h2,
 #last-section a.btn,
