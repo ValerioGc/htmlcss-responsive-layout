@@ -63,6 +63,9 @@ header nav {
 #third-section .section-title h2 {
     color: var(--secondary-color);
 }
+#third-section .section-title h4 {
+    color: var(--light-gray);
+}
 /* Quarta - Ultima Sezione */
 #fourth-section {
     background-color: var(--secondary-color);
