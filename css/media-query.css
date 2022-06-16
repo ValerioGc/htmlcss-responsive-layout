@@ -8,16 +8,40 @@
         flex-wrap: wrap;
         padding: 1rem 1.75rem;
     }
-    #first-section .container .card:first-child {
-        width: calc(66.666% - 1.5rem);
+    #first-section .container div.card:first-child {
+        display: block;
+    }
+    #first-section #phone{
+        text-align: left;
+    }
+    .sec-ty {
+        width: calc(33.333% - 1.5rem);
+    }
+    .sec-ty i {
+        margin-top: 3rem;
     }
     #first-section .container .card {
-        width: calc(33.333% - 1.5rem);
         margin: 0.75rem 0.75rem;
+        padding: 0;
+    }
+    #first-section #first-card {
+        width: calc(66.666% - 1.5rem);
     }
     #first-section .card-sub-c {
         display: flex;
     }
+    #first-section .card-sub-c img {
+        width:14rem;
+        margin: 1rem 2rem -0.3rem;
+    }
+    #first-section p:not(#first-card p) {
+        padding: 2rem 1rem;
+
+    }
+    /*************************
+    *****MQ Seconda Sezione*****
+    *************************/
+
     /*************************
     *****MQ Terza Sezione*****
     *************************/
@@ -66,6 +90,7 @@
     .header-container {
         width: 80%;
         margin: auto;
+        align-items: center;
     }
     .header-container #nav-anchor {
         display: block;
@@ -76,8 +101,14 @@
     /*************************
     *****MQ Prima Sezione*****
     *************************/
+    #first-section #phone {
+        display: flex;
+        align-items: flex-end;
+    }
+    #first-section #first-card:first-child {
+        display: flex;
+    }
     #first-section .container {
-        width: 80%;
         margin: auto;
     }
     /*************************
@@ -91,6 +122,20 @@
     }
     #second-section .container .card {
         width: 45%;
+    }
+        #second-section .container {
+        display: flex;
+        align-items:flex-end
+    }
+    #second-section .card-sub-c img {
+        margin: 4rem auto 0;
+        width: 60%;
+    }
+    #second-section .card h1 {
+        padding: 1rem;
+    }
+    #second-section .card p {
+        padding: 1rem;
     }
     /*************************
     *****MQ Terza Sezione*****
@@ -144,28 +189,30 @@
 /************ MQ > 1200PX ***************/
 @media screen and (min-width: 1200px) {
     .header-container {
-        width: 60%;
+        width: 70%;
     }
     #first-section .container {
-        width: 60%;
+        width: 70%;
+        margin: auto;
+        align-items: center;
     }
     #second-section .container {
-        width: 60%;
+        width: 70%;
     }
     #third-section .container, #third .section-title {
-        width: 60%;
+        width: 70%;
     }
     #fourth-section .container {
-        width: 60%;
+        width: 70%;
     }
     #fifth-section .container {
-        width: 60%;
+        width: 70%;
     }
     #last-section .container,
     footer .containter {
-        width: 40%;
+        width: 50%;
     }
     footer .container {
-        width: 40%;
+        width: 50%;
     }
 }
