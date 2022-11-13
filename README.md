@@ -11,7 +11,7 @@
 
 ## *_Used Languages:_*
 
-|  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" width="36" height="36" alt="HTML5" /> |  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="36" height="36" align="center" alt="CSS3" />
+|  <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/html.svg" width="36" height="36" alt="HTML5" /> |  <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/css.svg" width="36" height="36" align="center" alt="CSS3" />
 |--|--|
 | [**HTML**](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) | [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 
@@ -31,16 +31,16 @@
   
   <br/>
 
-  <img src="/previews/prev-responsive.png" alt="preview1" /> 
-  <img src="/previews/prev-responsive2.png" alt="preview2" /> 
-  <img src="/previews/prev-responsive3.png" alt="preview3" /> 
-  <img src="/previews/prev-responsive4.png" alt="preview4" /> 
+  <img align="center" src="/previews/prev-responsive.png" alt="preview1" /> 
+  <img align="center" src="/previews/prev-responsive2.png" alt="preview2" /> 
+  <img align="center" src="/previews/prev-responsive3.png" alt="preview3" /> 
+  <img align="center" src="/previews/prev-responsive4.png" alt="preview4" /> 
 
-  <img src="/previews/prev-responsive-sm.png" alt="preview-sm1" /> 
-  <img src="/previews/prev-responsive-sm2.png" alt="preview-sm2" /> 
-  <img src="/previews/prev-responsive-sm3.png" alt="preview-sm3" /> 
-  <img src="/previews/prev-responsive-sm4.png" alt="preview-sm4" /> 
-  <img src="/previews/prev-responsive-sm5.png" alt="preview-sm5" /> 
+  <img align="center" src="/previews/prev-responsive-sm.png" alt="preview-sm1" /> 
+  <img align="center" src="/previews/prev-responsive-sm2.png" alt="preview-sm2" /> 
+  <img align="center" src="/previews/prev-responsive-sm3.png" alt="preview-sm3" /> 
+  <img align="center" src="/previews/prev-responsive-sm4.png" alt="preview-sm4" /> 
+  <img align="center" src="/previews/prev-responsive-sm5.png" alt="preview-sm5" /> 
 
 </details>
 
