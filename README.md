@@ -26,7 +26,7 @@
 --------
 
 
-<details>  
+<details align=center>  
   <summary><strong><ins> View Full size previews :arrow_heading_down: </summary></strong></ins>
   
   <br/>
